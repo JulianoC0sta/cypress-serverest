@@ -1,0 +1,8 @@
+{
+  "validUser": {
+    "nome": "User API",
+    "email": "userapi@mailinator.com",
+    "password": "teste",
+    "administrador": true
+  }
+}

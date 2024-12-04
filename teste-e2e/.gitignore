@@ -1,0 +1,25 @@
+# Permitir a pasta teste-e2e e todo o seu conteúdo
+!/teste-e2e/
+!/teste-e2e/**
+
+# Ignorar arquivos gerados dentro da pasta de testes
+teste-e2e/*.log
+teste-e2e/screenshots/
+teste-e2e/videos/
+teste-e2e/results/
+teste-e2e/reports/
+
+# Ignorar dependências e arquivos irrelevantes
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+.nyc_output/
+
+# Ignorar arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
